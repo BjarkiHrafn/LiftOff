@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.get('/api/planets', (res, req) => {
-    return 'ye';
+    return ;
 })
 
 app.listen(PORT, () => console.log(`Listening on http://localhost:${PORT}`));
